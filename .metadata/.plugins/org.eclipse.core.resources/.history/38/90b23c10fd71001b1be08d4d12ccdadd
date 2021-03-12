@@ -1,0 +1,31 @@
+package Fundamentos;
+
+import java.util.Scanner;
+
+public class Desafiocalculadora {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner (System.in);
+		
+		System.out.println("Digite seu numero");
+		double num1= entrada.nextDouble();
+		
+		System.out.println("Digite seu numero");
+		double num2= entrada.nextDouble();
+		
+		System.out.println("Qual operação quer fazer?");
+		double operação= entrada.nextDouble();
+		
+		double resultado = "+".equals(operação) ? num1 + num2: 0;
+		resultado = "-".equals(operação) ? num1 - num2: 0;
+		resultado = "*".equals(operação) ? num1 * num2: 0;
+		resultado = "/".equals(operação) ? num1 / num2: 0;
+		
+		System.out.printf("%.2f %s %.2f", num1,  operação, num2);
+		System.out.println("Seu resultado é:" + resultado);
+		
+		
+		
+	}
+}

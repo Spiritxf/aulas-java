@@ -1,0 +1,34 @@
+package EstruturaControle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		
+				
+		Scanner entrada = new Scanner (System.in);
+	
+		int alunos = 0 ;
+		double nota = 0 ;
+		double total = 0;
+		
+		System.out.println("Digite quantos alunos tem:");
+		alunos = entrada.nextInt();
+		
+		System.out.println("Digite qual a nota do primeiro aluno:");
+		double nota = entrada.nextDouble();
+		while(nota <= alunos);
+		
+		
+		while(nota!= -1) {
+			
+			
+		}
+		
+		double media = total/alunos;
+		System.out.println("media =" + media);
+		
+	}
+	
+}

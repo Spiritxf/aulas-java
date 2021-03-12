@@ -1,0 +1,26 @@
+package EstruturaControle;
+
+import java.util.Scanner;
+
+public class DesafioDiaSemana {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Qual o dia na semana?");
+		
+		double semana = entrada.nextDouble();
+		
+		if(semana == 1)
+			System.out.println("Domingo");
+		else if (semana == 2 )
+			System.out.println("Segunda");
+		
+		
+		
+		
+		entrada.close();
+		
+	}
+}

@@ -1,0 +1,37 @@
+package EstruturaControle;
+
+import java.util.Scanner;
+
+public class IfElseIf {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite o valor da nota:");
+		
+		double nota = entrada.nextDouble();
+		
+		if(nota >10 || nota < 0)
+			System.out.println(" Nota invalida");
+		else
+			if(nota >=9.0)
+				System.out.println("Nota A");
+		if(nota <=8.9)
+			System.out.println("Nota B");
+		if(nota<= 6.9)
+			System.out.println("Nota C");
+		if (nota<= 5)
+			System.out.println("Nota D");
+		if (nota<= 3.9)
+			System.out.println("nota E");
+		if(nota <=2)
+			System.out.println("Nota F");
+		
+		entrada.close();
+		
+		
+		
+	}
+	
+}

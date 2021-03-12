@@ -1,0 +1,21 @@
+package EstruturaControle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		
+		String aluno = "";
+		
+		Scanner entrada = new Scanner (System.in);
+		System.out.println("Quantos alunos tem?");
+		
+		
+		
+		
+		
+		
+	}
+	
+}
